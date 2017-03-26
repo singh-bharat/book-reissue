@@ -29,8 +29,6 @@ if is_connected():
     
     #takes the username 
     while True:
-        #username = raw_input("please enter your username : ")
-            
         #check for correct username and password combination   
         while (driver.title != 'My Information'):
             driver.get('http://14.139.108.229/W27/login.aspx?ReturnUrl=%2fW27%2fMyInfo%2fw27MyInfo.aspx')
